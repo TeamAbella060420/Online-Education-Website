@@ -1,6 +1,6 @@
 function toggleTheme() {
-    var sunIcon = document.querySelector("#theme-toggle .fa-sun");
-    var moonIcon = document.querySelector("#theme-toggle .fa-moon");
+    const sunIcon = document.querySelector("#theme-toggle .fa-sun");
+    const moonIcon = document.querySelector("#theme-toggle .fa-moon");
     
     if (sunIcon.style.display === "none") {
       sunIcon.style.display = "block";
@@ -11,6 +11,6 @@ function toggleTheme() {
     }
   }
   
-  var themeToggle = document.querySelector("#theme-toggle");
+  const themeToggle = document.querySelector("#theme-toggle");
   themeToggle.addEventListener("click", toggleTheme);
   
