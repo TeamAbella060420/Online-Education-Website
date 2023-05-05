@@ -166,3 +166,8 @@ section {
     font-size: 2rem;
     color: var(--black);
 }
+
+.header .flex .profile span {
+    color: var(--light-color);
+    font-size: 1.6rem;
+}
