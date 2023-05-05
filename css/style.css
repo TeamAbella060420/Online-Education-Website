@@ -72,14 +72,18 @@ section {
   justify-content: space-between;
 }
 
-.theme {
+#theme-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 40%;
-  right: 0;
+  top: 21%;
+  right: -2.4%;
 }
+/* 
+#theme-toggle .fas .fa-moon {
+    display: none;
+} */
 
 .header .logo {
   font-size: 2.5rem;
@@ -92,7 +96,7 @@ section {
   border-radius: 0.5rem;
   align-items: center;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   background-color: var(--light-bg);
   padding: 1rem 2rem;
 }
@@ -105,8 +109,25 @@ section {
 }
 
 .header .flex .search-form button {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--black);
     cursor: pointer;
     background: none;
+}
+
+.header .flex .search-form button:hover {
+    color: var(--main-color);
+    transition: .3s;
+}
+
+.header .flex .icons div {
+    font-size: 2rem;
+    color: var(--black);
+    border-radius: .5rem;
+    height: 4.5rem;
+    cursor: pointer;
+    width: 4.5rem;
+    line-height: 4.4rem;
+    background-color: var(--light-bg);
+    text-align: center;
 }
