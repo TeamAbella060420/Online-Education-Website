@@ -153,3 +153,16 @@ section {
   text-align: center;
   width: 30rem;
 }
+
+.header .flex .profile img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+
+.header .flex .profile h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
