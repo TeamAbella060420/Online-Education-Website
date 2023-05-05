@@ -77,8 +77,8 @@ section {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 38%;
-  right: 15%;
+  top: 21%;
+  right: 11.3%;
   text-align: center;
 }
 /* 
@@ -142,4 +142,14 @@ section {
 
 #search-btn {
   display: none;
+}
+
+.header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  background-color: var(--white);
+  padding: 2rem;
+  text-align: center;
+  width: 30rem;
 }
