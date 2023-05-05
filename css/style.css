@@ -110,37 +110,36 @@ section {
 }
 
 .header .flex .search-form button {
-    font-size: 2rem;
-    color: var(--black);
-    cursor: pointer;
-    background: none;
+  font-size: 2rem;
+  color: var(--black);
+  cursor: pointer;
+  background: none;
 }
 
 .header .flex .search-form button:hover {
-    color: var(--main-color);
-    transition: .3s;
+  color: var(--main-color);
+  transition: 0.3s;
 }
 
 .header .flex .icons div {
-    font-size: 2rem;
-    color: var(--black);
-    border-radius: .5rem;
-    height: 4.5rem;
-    cursor: pointer;
-    width: 4.5rem;
-    line-height: 4.4rem;
-    background-color: var(--light-bg);
-    text-align: center;
-    margin-left: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+  height: 4.5rem;
+  cursor: pointer;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  background-color: var(--light-bg);
+  text-align: center;
+  margin-left: 1rem;
 }
 
 .header .flex .icons div:hover {
-    background-color: var(--black);
-    color: var(--white);
-    transition: .5s;
+  background-color: var(--black);
+  color: var(--white);
+  transition: 0.5s;
 }
 
-
 #search-btn {
-    display: none;
+  display: none;
 }
