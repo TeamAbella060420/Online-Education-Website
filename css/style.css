@@ -134,27 +134,8 @@ section {
     margin-left: 1rem;
 }
 
-.header .flex #menu-btn:hover {
+.header .flex .icons div:hover {
     background-color: var(--black);
     color: var(--white);
+    transition: .5s;
 }
-
-.header .flex #search-btn:hover {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-.header .flex #user-btn:hover {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-.header .flex #theme-toggle:hover {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-/* .header .flex #toggle-btn:hover {
-    background-color: var(--black);
-    color: var(--white);
-} */
