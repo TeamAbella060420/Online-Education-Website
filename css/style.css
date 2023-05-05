@@ -76,6 +76,17 @@ section {
     width: 100%;
 }
 
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn {
+    display: inline-block;
+}
+
+.btn,
+.inline-btn {
+    background-color: var(--main-color);
+}
+
 .header {
   background-color: var(--white);
   border-bottom: var(--border);
