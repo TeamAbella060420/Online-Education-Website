@@ -60,31 +60,50 @@ section {
 .inline-btn,
 .inline-option-btn,
 .inline-delete-btn {
-    border-radius: .5rem;
-    padding: 1rem 3rem;
-    font-size: 1.8rem;
-    color: var(--white);
-    text-transform: capitalize;
-    cursor: pointer;
-    text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  color: var(--white);
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
 }
 
 .btn,
 .option-btn,
 .delete-btn {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .inline-btn,
 .inline-option-btn,
 .inline-delete-btn {
-    display: inline-block;
+  display: inline-block;
 }
 
 .btn,
 .inline-btn {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
+}
+
+.option-btn,
+.inline-option-btn {
+  background-color: var(--orange);
+}
+
+.delete-btn,
+.inline-delete-btn {
+  background-color: var(--red);
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover,
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover {
+  background-color: var(--black);
 }
 
 .header {
