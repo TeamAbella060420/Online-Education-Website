@@ -108,6 +108,11 @@ section {
   color: var(--white);
 }
 
+.flex-btn {
+  display: flex;
+  gap: 1rem;
+}
+
 .header {
   background-color: var(--white);
   border-bottom: var(--border);
@@ -172,7 +177,6 @@ section {
 
 .header .flex .search-form button:hover {
   color: var(--main-color);
-  transition: 0.3s;
 }
 
 .header .flex .icons div {
