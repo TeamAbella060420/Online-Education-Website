@@ -54,6 +54,17 @@ section {
   margin: 0 auto;
 }
 
+.btn,
+.option-btn,
+.delete-btn,
+.inline-btn,
+.inline-option-btn,
+.inline-delete-btn {
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+}
+
 .header {
   background-color: var(--white);
   border-bottom: var(--border);
@@ -155,19 +166,19 @@ section {
 }
 
 .header .flex .profile img {
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: .5rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
 }
 
 .header .flex .profile h3 {
-    font-size: 2rem;
-    color: var(--black);
+  font-size: 2rem;
+  color: var(--black);
 }
 
 .header .flex .profile span {
-    color: var(--light-color);
-    font-size: 1.6rem;
+  color: var(--light-color);
+  font-size: 1.6rem;
 }
