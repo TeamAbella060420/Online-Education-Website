@@ -78,7 +78,8 @@ section {
   justify-content: center;
   position: absolute;
   top: 21%;
-  right: -2.4%;
+  right: -3%;
+  text-align: center;
 }
 /* 
 #theme-toggle .fas .fa-moon {
@@ -130,4 +131,5 @@ section {
     line-height: 4.4rem;
     background-color: var(--light-bg);
     text-align: center;
+    margin-left: 1rem;
 }
