@@ -38,3 +38,18 @@
 *::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--light-bg);
+}
+
+section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
