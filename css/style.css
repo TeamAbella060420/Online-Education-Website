@@ -63,7 +63,8 @@ section {
   border-radius: 0.5rem;
   padding: 1rem 3rem;
   font-size: 1.8rem;
-  color: var(--white);
+  color: #fff;
+  margin-top: 1rem;
   text-transform: capitalize;
   cursor: pointer;
   text-align: center;
@@ -104,6 +105,7 @@ section {
 .inline-option-btn:hover,
 .inline-delete-btn:hover {
   background-color: var(--black);
+  color: var(--white);
 }
 
 .header {
