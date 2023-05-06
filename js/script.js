@@ -29,12 +29,20 @@
 //   }
 // });
 
-let profiles  = document.querySelector('.header .flex .profile');
+let profile  = document.querySelector('.header .flex .profile');
+let searcForm  = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#user-btn').onclick = () => {
-  profiles.classList.toggle('active')
+  profile.classList.toggle('active')
+  searcForm.classList.remove('active')
+}
+
+document.querySelector('#search-btn').onclick = () => {
+  searcForm.classList.toggle('active')
+  profile.classList.remove('active')
 }
 
 window.onscroll = () => {
-  profiles.classList.remove('active')
+  profile.classList.remove('active')
+  searcForm.classList.remove('active')
 }
