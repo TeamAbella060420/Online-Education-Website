@@ -210,6 +210,13 @@ section {
   padding: 2rem;
   text-align: center;
   width: 30rem;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: .2s linear;
+}
+
+.header .flex .profile.active {
+  transform: scale(0);
 }
 
 .header .flex .profile img {
@@ -218,9 +225,6 @@ section {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 0.5rem;
-  transform: scale(0);
-  transform-origin: top right;
-  transition: .2s linear;
 }
 
 .header .flex .profile h3 {
