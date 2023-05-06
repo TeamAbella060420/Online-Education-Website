@@ -29,12 +29,12 @@ themeToggle.addEventListener("click", toggleTheme);
 //   }
 // });
 
-let profile = document.querySelector('.header .flex .profile');
+let profiles  = document.querySelector('.header .flex .profile');
 
 document.querySelector('#user-btn').onclick = () => {
-  profile.classList.toggle('active')
+  profiles.classList.toggle('active')
 }
 
 window.onscroll = () => {
-  profile.classList.toggle('active')
+  profiles.classList.remove('active')
 }
