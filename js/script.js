@@ -1,20 +1,20 @@
 // Toggle between light and dark themes when theme toggle is clicked
 
-function toggleTheme() {
-    const sunIcon = document.querySelector("#theme-toggle .fa-sun");
-    const moonIcon = document.querySelector("#theme-toggle .fa-moon");
+// function toggleTheme() {
+//     const sunIcon = document.querySelector("#theme-toggle .fa-sun");
+//     const moonIcon = document.querySelector("#theme-toggle .fa-moon");
 
-    if (sunIcon.style.display === "none") {
-        sunIcon.style.display = "block";
-        moonIcon.style.display = "none";
-    } else {
-        sunIcon.style.display = "none";
-        moonIcon.style.display = "block";
-    }
-}
+//     if (sunIcon.style.display === "none") {
+//         sunIcon.style.display = "block";
+//         moonIcon.style.display = "none";
+//     } else {
+//         sunIcon.style.display = "none";
+//         moonIcon.style.display = "block";
+//     }
+// }
 
-const themeToggle = document.querySelector("#theme-toggle");
-themeToggle.addEventListener("click", toggleTheme);
+// const themeToggle = document.querySelector("#theme-toggle");
+// themeToggle.addEventListener("click", toggleTheme);
 
 // Toggle visibility of profile when user icon is clicked
 
