@@ -216,7 +216,7 @@ section {
 }
 
 .header .flex .profile.active {
-  transform: scale(0);
+  transform: scale(1);
 }
 
 .header .flex .profile img {
