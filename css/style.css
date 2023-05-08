@@ -46,6 +46,7 @@ html {
 
 body {
   background-color: var(--light-bg);
+  padding-left: 30rem;
 }
 
 section {
@@ -240,6 +241,13 @@ section {
 .header .flex .profile span {
   color: var(--light-color);
   font-size: 1.6rem;
+}
+
+.side-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
 
 /* media queries */
