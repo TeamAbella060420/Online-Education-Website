@@ -30,12 +30,13 @@
 // });
 
 let profile  = document.querySelector('.header .flex .profile');
-let searcForm  = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#user-btn').onclick = () => {
   profile.classList.toggle('active')
   searcForm.classList.remove('active')
 }
+
+let searcForm  = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#search-btn').onclick = () => {
   searcForm.classList.toggle('active')
