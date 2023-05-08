@@ -220,6 +220,10 @@ section {
   transform: scale(1);
 }
 
+.header .flex .search-form.active {
+  transform: scale(1);
+}
+
 .header .flex .profile img {
   height: 10rem;
   width: 10rem;
@@ -262,6 +266,7 @@ section {
     background-color: var(--white);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transform: scale(0);
   }
 }
 
