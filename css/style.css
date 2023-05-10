@@ -264,13 +264,14 @@ section {
   text-align: right;
   padding: 2rem;
   padding-bottom: 0;
+  display: none;
 }
 
 .side-bar .close-side-bar i {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.4rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
   background-color: var(--red);
   cursor: pointer;
@@ -339,6 +340,10 @@ section {
 }
 
 /* media queries */
+
+@media (max-width: 991px) {
+  
+}
 
 @media (max-width: 991px) {
   html {
