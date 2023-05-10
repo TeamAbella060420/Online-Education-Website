@@ -433,6 +433,23 @@ footer {
 
 .quick-select .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
   gap: 1.5rem;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.quick-select .box-container .box {
+  border-radius: .5rem;
+  background-color: var(--white);
+  padding: 2rem;
+}
+
+.quick-select .box-container .box .title {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.quick-select .box-container .box p {
+  line-height: 1.5;
 }
