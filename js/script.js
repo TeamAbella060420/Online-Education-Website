@@ -43,6 +43,13 @@ document.querySelector('#search-btn').onclick = () => {
   profile.classList.remove('active')
 }
 
+let sideBar  = document.querySelector('.header .flex .side-bar');
+
+document.querySelector('#search-btn').onclick = () => {
+  sideBar.classList.toggle('active')
+  profile.classList.remove('active')
+}
+
 window.onscroll = () => {
   profile.classList.remove('active')
   searcForm.classList.remove('active')
