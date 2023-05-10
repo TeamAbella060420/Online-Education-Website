@@ -30,6 +30,7 @@
 // });
 
 let profile  = document.querySelector('.header .flex .profile');
+let body = document.body
 
 document.querySelector('#user-btn').onclick = () => {
   profile.classList.toggle('active')
@@ -46,7 +47,8 @@ document.querySelector('#search-btn').onclick = () => {
 let sideBar  = document.querySelector('.side-bar');
 
 document.querySelector('#menu-btn').onclick = () => {
-  sideBar.classList.toggle('active')
+  sideBar.classList.toggle('active');
+  body.classList.toggle('active');
 }
 
 window.onscroll = () => {
