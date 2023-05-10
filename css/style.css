@@ -51,6 +51,7 @@ body {
 
 body.active {
   padding-left: 0;
+  transition: .2s linear;
 }
 
 section {
@@ -259,6 +260,28 @@ section {
   transition: .2s linear;
 }
 
+.side-bar .close-side-bar {
+  text-align: right;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.side-bar .close-side-bar i {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.4rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: var(--red);
+  cursor: pointer;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+.side-bar .close-side-bar i:hover {
+  background-color: var(--black);
+}
+
 .side-bar .profile {
   padding: 3rem 2rem;
   text-align: center;
@@ -351,7 +374,7 @@ section {
 }
 
 
-.footer {
+footer {
   position: sticky;
   position: absolute;
   bottom: 0;
@@ -359,12 +382,11 @@ section {
   left: 0;
   background-color: var(--white);
   border-top: var(--border);
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 0;
   text-align: center;
   color: var(--black);
   font-size: 2rem;
   margin-top: 2rem;
-  z-index: 999;
 }
 
 .footer span {
