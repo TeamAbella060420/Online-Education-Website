@@ -248,6 +248,14 @@ section {
   font-size: 1.6rem;
 }
 
+.heading {
+  padding-bottom: 2rem;
+  border-bottom: var(--border);
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
 .side-bar {
   position: absolute;
   top: 0;
