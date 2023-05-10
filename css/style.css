@@ -341,8 +341,16 @@ section {
 
 /* media queries */
 
-@media (max-width: 991px) {
-  
+@media (max-width: 1200px) {
+
+  body {
+    padding-left: 0;
+  }
+
+  .side-bar .close-side-bar {
+    display: inline-block;
+  }
+
 }
 
 @media (max-width: 991px) {
