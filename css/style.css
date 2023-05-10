@@ -51,7 +51,7 @@ body {
 
 body.active {
   padding-left: 0;
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 section {
@@ -257,7 +257,7 @@ section {
   background: var(--white);
   border: var(--border);
   z-index: 999999;
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .side-bar .close-side-bar {
@@ -276,7 +276,7 @@ section {
   background-color: var(--red);
   cursor: pointer;
   text-align: center;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .side-bar .close-side-bar i:hover {
@@ -320,7 +320,7 @@ section {
 .side-bar .navbar a i {
   color: var(--main-color);
   margin-right: 1.5rem;
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .side-bar .navbar a span {
@@ -331,7 +331,7 @@ section {
   background-color: var(--light-bg);
 }
 
-.side-bar .navbar a:hover i{
+.side-bar .navbar a:hover i {
   margin-right: 2.5rem;
 }
 
@@ -342,25 +342,23 @@ section {
 /* media queries */
 
 @media (max-width: 1200px) {
-
   body {
     padding-left: 0;
   }
 
   .side-bar {
-    transition: .2s linear;
+    transition: 0.2s linear;
     left: -30rem;
   }
-  
+
   .side-bar.active {
     left: 0;
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
   }
-  
+
   .side-bar .close-side-bar {
     display: block;
   }
-
 }
 
 @media (max-width: 991px) {
@@ -395,7 +393,6 @@ section {
     font-size: 50%;
   }
 }
-
 
 footer {
   position: sticky;
