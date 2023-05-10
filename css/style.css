@@ -251,6 +251,7 @@ section {
   width: 30rem;
   background: var(--white);
   border: var(--border);
+  z-index: 999999;
 }
 
 .side-bar .profile {
