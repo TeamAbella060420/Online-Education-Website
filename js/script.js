@@ -29,7 +29,7 @@
 //   }
 // });
 
-let profile  = document.querySelector('.header .flex .profile');
+let profile = document.querySelector('.header .flex .profile');
 let body = document.body
 
 document.querySelector('#user-btn').onclick = () => {
@@ -37,21 +37,31 @@ document.querySelector('#user-btn').onclick = () => {
   searcForm.classList.remove('active')
 }
 
-let searcForm  = document.querySelector('.header .flex .search-form');
+let searcForm = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#search-btn').onclick = () => {
   searcForm.classList.toggle('active')
   profile.classList.remove('active')
 }
 
-let sideBar  = document.querySelector('.side-bar');
+let sideBar = document.querySelector('.side-bar');
 
 document.querySelector('#menu-btn').onclick = () => {
   sideBar.classList.toggle('active');
   body.classList.toggle('active');
 }
 
+document.querySelector('.side-bar .close-side-bar').onclick = () => {
+  sideBar.classList.remove('active');
+  body.classList.remove('active');
+}
+
 window.onscroll = () => {
   profile.classList.remove('active')
   searcForm.classList.remove('active')
+
+  if (window.innerWidth < 1200) {
+    sideBar.classList.remove('active');
+    body.classList.remove('active');
+  }
 }
