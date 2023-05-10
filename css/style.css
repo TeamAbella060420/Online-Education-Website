@@ -252,6 +252,7 @@ section {
   background: var(--white);
   border: var(--border);
   z-index: 999999;
+  transition: .2s linear;
 }
 
 .side-bar .profile {
