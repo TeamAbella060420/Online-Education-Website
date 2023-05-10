@@ -306,6 +306,10 @@ section {
   margin-right: 2.5rem;
 }
 
+.side-bar.active {
+  left: -31rem;
+}
+
 /* media queries */
 
 @media (max-width: 991px) {
@@ -356,4 +360,8 @@ section {
   font-size: 2rem;
   margin-top: 2rem;
   z-index: 999;
+}
+
+.footer span {
+  color: var(--main-color);
 }
