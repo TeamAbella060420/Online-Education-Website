@@ -477,7 +477,7 @@ footer {
 
 .quick-select .box-container .box .flex a {
   padding: 1rem 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 1.6rem;
   background-color: var(--light-bg);
 }
@@ -512,7 +512,7 @@ footer {
 }
 
 .courses .box-container .box {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--white);
   padding: 2rem;
 }
@@ -534,7 +534,7 @@ footer {
 .courses .box-container .box .tutor h3 {
   font-size: 2rem;
   color: var(--black);
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .courses .box-container .box .tutor span {
@@ -544,16 +544,16 @@ footer {
 
 .courses .box-container .box .thumb {
   width: 100%;
-  border-radius: .5rem;
-  height: auto; /* Change height to auto to maintain aspect ratio */
-  max-height: 20rem; /* Set a max-height for the thumbnail */
+  border-radius: 0.5rem;
+  height: 20rem;
+  object-fit: cover;
   object-fit: cover;
 }
 
 .courses .box-container .box .title {
   font-size: 2rem;
   color: var(--black);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   padding: 0.5rem 0;
 }
 
