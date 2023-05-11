@@ -491,3 +491,15 @@ footer {
 .quick-select .box-container .box .flex a span {
   color: var(--light-color);
 }
+
+.quick-select .box-container .box .flex a:hover {
+  background-color: var(--black);
+}
+
+.quick-select .box-container .box .flex a:hover i {
+  color: var(--white);
+}
+
+.quick-select .box-container .box .flex a:hover span {
+  color: var(--white);
+}
