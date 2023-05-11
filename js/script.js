@@ -67,3 +67,4 @@ window.onscroll = () => {
 }
 
 let toggleBtn = document.querySelector('#toggle-btn');
+let darkMode = localStorage.getItem('dark-mode')
