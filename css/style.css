@@ -510,3 +510,14 @@ footer {
   align-items: flex-start;
   justify-content: center;
 }
+
+.courses .box-container .box {
+  border-radius: .5rem;
+  background-color: var(--white);
+  padding: 2rem;
+}
+
+.courses .box-container .box .thumb {
+  width: 100%;
+  border-radius: .5rem;
+}
