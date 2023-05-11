@@ -502,3 +502,11 @@ footer {
 .quick-select .box-container .box .flex a:hover span {
   color: var(--white);
 }
+
+.courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
