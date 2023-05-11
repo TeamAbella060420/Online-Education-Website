@@ -457,6 +457,14 @@ footer {
   font-size: 1.8rem;
 }
 
-.quick-select .box-container {
-  
+.quick-select .box-container .box p span {
+  color: var(--main-color);
+}
+
+.quick-select .box-container .tutor {
+  text-align: center;
+}
+
+.quick-select .box-container .tutor p {
+  padding-bottom: 1rem;
 }
