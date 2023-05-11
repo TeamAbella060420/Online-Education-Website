@@ -517,8 +517,18 @@ footer {
   padding: 2rem;
 }
 
-.courses .box-container .box {
-  
+.courses .box-container .box .tutor {
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.courses .box-container .box .tutor img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .courses .box-container .box .thumb {
