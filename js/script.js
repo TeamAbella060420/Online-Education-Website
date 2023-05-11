@@ -65,3 +65,5 @@ window.onscroll = () => {
     body.classList.remove('active');
   }
 }
+
+let toggleBtn = document.querySelector('#toggle-btn');
