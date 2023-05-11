@@ -468,3 +468,16 @@ footer {
 .quick-select .box-container .tutor p {
   padding-bottom: 1rem;
 }
+
+.quick-select .box-container .box .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1.5rem;
+}
+
+.quick-select .box-container .box .flex a {
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+}
