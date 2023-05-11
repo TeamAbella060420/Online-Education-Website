@@ -74,3 +74,13 @@ const enableDarkMode = () => {
   body.classList.add('dark');
   localStorage.setItem('dark-mode', 'enabled');
 }
+
+const disableDarkMode = () => {
+  toggleBtn.classList.replace('fa-moon', 'fa-sun');
+  body.classList.remove('dark');
+  localStorage.setItem('dark-mode', 'disabled');
+}
+
+if (darkMode === 'enable') {
+  enableDarkMode();
+}
