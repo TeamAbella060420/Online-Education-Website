@@ -11,6 +11,14 @@
   --border: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
+body.dark {
+  --white: #222;
+  --black: #fff;
+  --light-color: #aaa;
+  --light-bg: #333;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
 * {
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
@@ -562,10 +570,4 @@ footer {
   text-align: center;
 }
 
-body.dark {
-  --white: #222;
-  --black: #fff;
-  --light-color: #aaa;
-  --light-bg: #333;
-  --border: 0.1rem solid rgba(255, 255, 255, 0.2);
-}
+
