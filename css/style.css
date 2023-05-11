@@ -556,3 +556,8 @@ footer {
   margin-top: .5rem;
   padding: 0.5rem 0;
 }
+
+.courses .more-btn {
+  margin-top: 2rem;
+  text-align: center;
+}
