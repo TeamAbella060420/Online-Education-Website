@@ -87,7 +87,9 @@ if (darkMode === 'enable') {
 
 toggleBtn.onclick = (e) => {
   let darkMode = localStorage.getItem('dark-mode');
-  if(darkMode === 'disable') {
+  if (darkMode === 'disable') {
     enableDarkMode();
+  } else {
+    disableDarkMode
   }
 }
