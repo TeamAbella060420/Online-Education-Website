@@ -440,7 +440,7 @@ footer {
 }
 
 .quick-select .box-container .box {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--white);
   padding: 2rem;
 }
