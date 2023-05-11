@@ -563,9 +563,9 @@ footer {
 }
 
 body.dark {
-  --white: #fff;
-  --black: #2c3e50;
-  --light-color: #888;
-  --light-bg: #eee;
-  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --white: #222;
+  --black: #fff;
+  --light-color: #aaa;
+  --light-bg: #333;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
