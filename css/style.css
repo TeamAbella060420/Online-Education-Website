@@ -505,7 +505,7 @@ footer {
 
 .courses .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
   align-items: flex-start;
   justify-content: center;
@@ -517,9 +517,14 @@ footer {
   padding: 2rem;
 }
 
+.courses .box-container .box {
+  
+}
+
 .courses .box-container .box .thumb {
   width: 100%;
   border-radius: .5rem;
-  height: 20rem;
+  height: auto; /* Change height to auto to maintain aspect ratio */
+  max-height: 20rem; /* Set a max-height for the thumbnail */
   object-fit: cover;
 }
