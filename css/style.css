@@ -518,7 +518,7 @@ footer {
 }
 
 .courses .box-container .box .tutor {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -531,10 +531,27 @@ footer {
   object-fit: cover;
 }
 
+.courses .box-container .box .tutor h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: .2rem;
+}
+
+.courses .box-container .box .tutor span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
 .courses .box-container .box .thumb {
   width: 100%;
   border-radius: .5rem;
   height: auto; /* Change height to auto to maintain aspect ratio */
   max-height: 20rem; /* Set a max-height for the thumbnail */
   object-fit: cover;
+}
+
+.courses .box-container .box .title {
+  font-size: 2rem;
+  color: var(--black);
+  margin-top: 1rem;
 }
