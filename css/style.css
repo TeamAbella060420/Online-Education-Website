@@ -613,4 +613,6 @@ footer {
 .about .box-container .box {
   display: flex;
   background-color: var(--light-bg);
+  border-radius: .5rem;
+  padding: 2rem;
 }
