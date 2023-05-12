@@ -73,27 +73,38 @@ const enableDarkMode = () => {
   toggleBtn.classList.replace('fa-sun', 'fa-moon');
   body.classList.add('dark');
   localStorage.setItem('dark-mode', 'enabled');
-  toggleBtn.style.color = 'var(--black)';
 
   if (body.classList.contains('dark')) {
-    toggleBtn.style.color = 'var(--black)';
+    toggleBtn.style.color = 'var(--white)';
   } else {
     toggleBtn.style.color = '#e99e75';
   }
 
   toggleBtn.addEventListener('mouseenter', () => {
-    toggleBtn.style.color = 'var(--white)';
-  });
-
-  toggleBtn.addEventListener('mouseleave', () => {
     if (body.classList.contains('dark')) {
-      toggleBtn.style.color = 'var(--black)';
+      toggleBtn.style.color = 'var(--white)';
     } else {
       toggleBtn.style.color = '#e99e75';
     }
   });
-};
 
+  toggleBtn.addEventListener('mouseleave', () => {
+    if (body.classList.contains('dark')) {
+      toggleBtn.style.color = 'var(--white)';
+    } else {
+      toggleBtn.style.color = '#e99e75';
+    }
+  });
+
+  // Handle initial hover state
+  if (toggleBtn.matches(':hover')) {
+    if (body.classList.contains('dark')) {
+      toggleBtn.style.color = 'var(--white)';
+    } else {
+      toggleBtn.style.color = '#e99e75';
+    }
+  }
+};
 
 const disableDarkMode = () => {
   toggleBtn.classList.replace('fa-moon', 'fa-sun');
