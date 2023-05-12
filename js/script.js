@@ -75,7 +75,7 @@ const enableDarkMode = () => {
   localStorage.setItem('dark-mode', 'enabled');
 
   if (body.classList.contains('dark')) {
-    toggleBtn.style.color = 'var(--white)';
+    toggleBtn.style.color = 'var(--black)';
   } else {
     toggleBtn.style.color = '#e99e75';
   }
@@ -90,7 +90,7 @@ const enableDarkMode = () => {
 
   toggleBtn.addEventListener('mouseleave', () => {
     if (body.classList.contains('dark')) {
-      toggleBtn.style.color = 'var(--white)';
+      toggleBtn.style.color = 'var(--black)';
     } else {
       toggleBtn.style.color = '#e99e75';
     }
@@ -105,6 +105,7 @@ const enableDarkMode = () => {
     }
   }
 };
+
 
 const disableDarkMode = () => {
   toggleBtn.classList.replace('fa-moon', 'fa-sun');
