@@ -611,8 +611,26 @@ footer {
 }
 
 .about .box-container .box {
+  flex: 1 1 20rem;
   display: flex;
-  background-color: var(--light-bg);
+  background-color: var(--white);
   border-radius: .5rem;
   padding: 2rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about .box-container .box i {
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.about .box-container .box h3 {
+  color: var(--main-color);
+  font-size: 2rem;
+}
+
+.about .box-container .box span {
+  font-size: 1.5rem;
+  color: var(--black);
 }
