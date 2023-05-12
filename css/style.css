@@ -617,7 +617,7 @@ footer {
   border-radius: .5rem;
   padding: 2rem;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .about .box-container .box i {
@@ -632,5 +632,5 @@ footer {
 
 .about .box-container .box span {
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--light-color);
 }
