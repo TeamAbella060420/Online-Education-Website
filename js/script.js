@@ -73,6 +73,7 @@ const enableDarkMode = () => {
   toggleBtn.classList.replace('fa-sun', 'fa-moon');
   body.classList.add('dark');
   localStorage.setItem('dark-mode', 'enabled');
+  toggleBtn.style.color = 'var(--black)';
 
   if (body.classList.contains('dark')) {
     toggleBtn.style.color = 'var(--black)';
