@@ -646,3 +646,20 @@ footer {
   align-items: flex-start;
   justify-content: center;
 }
+
+.reviews .box-container .box {
+  border-radius: .5rem;
+  padding: 2rem;
+  background-color: var(--white);
+}
+
+.reviews .box-container .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reviews .box-container .box .user img {
+  height: 5rem;
+  width: 5rem;
+}
