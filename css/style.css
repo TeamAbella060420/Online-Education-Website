@@ -657,6 +657,11 @@ footer {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-top: 1rem;
+}
+
+.reviews .box-container .box p {
+  list-style: none;
 }
 
 .reviews .box-container .box .user img {
