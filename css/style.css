@@ -588,6 +588,7 @@ footer {
 
 .about .row .content {
   flex: 1 1 40rem;
+  text-align: center;
 }
 
 .about .row .content h3 {
@@ -599,4 +600,5 @@ footer {
   line-height: 2;
   font-size: 1.7rem;
   color: var(--light-color);
+  padding: 1rem 0;
 }
