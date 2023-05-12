@@ -661,7 +661,10 @@ footer {
 }
 
 .reviews .box-container .box p {
-  list-style: 2;
+  line-height: 2;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  padding-top: 1.5rem;
 }
 
 .reviews .box-container .box .user img {
@@ -669,4 +672,13 @@ footer {
   width: 5rem;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.reviews .box-container .box .user h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.reviews .box-container .box .user .stars i {
+  color: var(--main-color);
 }
