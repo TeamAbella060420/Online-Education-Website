@@ -71,10 +71,28 @@ let darkMode = localStorage.getItem('dark-mode');
 
 const enableDarkMode = () => {
   toggleBtn.classList.replace('fa-sun', 'fa-moon');
-  toggleBtn.style.color = 'white';
   body.classList.add('dark');
   localStorage.setItem('dark-mode', 'enabled');
-}
+
+  if (body.classList.contains('dark')) {
+    toggleBtn.style.color = 'var(--black)';
+  } else {
+    toggleBtn.style.color = '#e99e75';
+  }
+
+  toggleBtn.addEventListener('mouseenter', () => {
+    toggleBtn.style.color = 'var(--white)';
+  });
+
+  toggleBtn.addEventListener('mouseleave', () => {
+    if (body.classList.contains('dark')) {
+      toggleBtn.style.color = 'var(--black)';
+    } else {
+      toggleBtn.style.color = '#e99e75';
+    }
+  });
+};
+
 
 const disableDarkMode = () => {
   toggleBtn.classList.replace('fa-moon', 'fa-sun');
