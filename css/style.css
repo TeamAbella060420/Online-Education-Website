@@ -55,6 +55,7 @@ html {
 body {
   background-color: var(--light-bg);
   padding-left: 30rem;
+  transition: 0.2s linear;
 }
 
 body.active {
@@ -232,6 +233,7 @@ section {
 
 .header .flex .profile.active {
   transform: scale(1);
+  transition: 0.2s linear;
 }
 
 .header .flex .search-form.active {
@@ -354,6 +356,7 @@ section {
 
 .side-bar.active {
   left: -31rem;
+  transition: 0.2s linear;
 }
 
 /* media queries */
