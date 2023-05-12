@@ -602,3 +602,15 @@ footer {
   color: var(--light-color);
   padding: 1rem 0;
 }
+
+.about .box-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.about .box-container .box {
+  display: flex;
+  background-color: var(--light-bg);
+}
