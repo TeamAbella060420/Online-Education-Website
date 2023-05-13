@@ -635,3 +635,10 @@ footer {
   flex: 1 1 40rem;
 }
 
+.playlist .row .col .save-list button {
+  font-size: 2rem;
+  border-radius: .5rem;
+  background-color: var(--light-bg);
+  padding: 1rem 3rem;
+}
+
