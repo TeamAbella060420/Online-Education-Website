@@ -676,3 +676,8 @@ footer {
   align-items: center;
   gap: 1.5rem;
 }
+
+.playlist .row .col .tutor img {
+  height: 5rem;
+  width: 5rem;
+}
