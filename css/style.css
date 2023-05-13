@@ -651,3 +651,15 @@ footer {
 .playlist .row .col .save-list button span {
   color: var(--light-color);
 }
+
+.playlist .row .col .save-list button:hover {
+  background-color: var(--black);
+}
+
+.playlist .row .col .save-list button:hover i {
+  color: var(--white);
+}
+
+.playlist .row .col .save-list button:hover span {
+  color: var(--white);
+}
