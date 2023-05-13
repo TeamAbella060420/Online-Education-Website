@@ -421,6 +421,10 @@ section {
     flex-flow: column;
     gap: 0;
   }
+
+  .about .row .image img {
+    height: auto;
+  }
 }
 
 footer {
