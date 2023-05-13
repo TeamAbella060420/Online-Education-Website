@@ -359,7 +359,6 @@ section {
   transition: 0.2s linear;
 }
 
-
 footer {
   position: sticky;
   bottom: 0;
@@ -637,8 +636,18 @@ footer {
 
 .playlist .row .col .save-list button {
   font-size: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   padding: 1rem 3rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
 
+.playlist .row .col .save-list button i {
+  color: var(--black);
+  margin-right: 1rem;
+}
+
+.playlist .row .col .save-list button span {
+  color: var(--light-bg);
+}
