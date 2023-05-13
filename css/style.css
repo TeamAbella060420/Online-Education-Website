@@ -713,10 +713,12 @@ footer {
 
 .playlist .row .col .details .date {
   font-size: 1.7rem;
+  padding-top: 1rem;
 }
 
 .playlist .row .col .details .date i {
   color: var(--main-color);
+  margin-right: 1rem;
 }
 
 .playlist .row .col .details .date span {
