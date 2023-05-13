@@ -670,3 +670,9 @@ footer {
   border-radius: 0.5rem;
   object-fit: cover;
 }
+
+.playlist .row .col .tutor {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
