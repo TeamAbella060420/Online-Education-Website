@@ -126,3 +126,15 @@ toggleBtn.onclick = (e) => {
     disableDarkMode();
   }
 }
+
+function updateYear() {
+  const yearElement = document.getElementById('year');
+  const currentYear = new Date().getFullYear();
+  yearElement.textContent = currentYear;
+}
+
+// Call the function to update the year immediately
+updateYear();
+
+// Schedule the function to be called every year on January 1st
+setInterval(updateYear, 86400000); // 24 * 60 * 60 * 1000 milliseconds = 1 day
