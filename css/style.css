@@ -695,3 +695,18 @@ footer {
   font-size: 1.5rem;
 }
 
+.playlist .row .col .details {
+  padding-top: 1rem;
+}
+
+.playlist .row .col .details h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.playlist .row .col .details p {
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--light-color);
+  font-size: 1.7rem;
+}
