@@ -678,6 +678,14 @@ footer {
 }
 
 .playlist .row .col .tutor img {
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+.playlist .row .col .tutor h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
