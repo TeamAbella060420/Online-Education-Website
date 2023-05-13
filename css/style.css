@@ -663,3 +663,10 @@ footer {
 .playlist .row .col .save-list button:hover span {
   color: var(--white);
 }
+
+.playlist .row .col .thumb {
+  width: 100%;
+  height: 30rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
