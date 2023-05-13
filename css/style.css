@@ -674,7 +674,7 @@ footer {
 .playlist .row .col .tutor {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.7rem;
 }
 
 .playlist .row .col .tutor img {
@@ -687,7 +687,7 @@ footer {
 .playlist .row .col .tutor h3 {
   font-size: 2rem;
   color: var(--black);
-  margin-bottom: 2rem;
+  margin-bottom: .2rem;
 }
 
 .playlist .row .col .tutor span {
