@@ -622,3 +622,16 @@ footer {
   font-size: 1.5rem;
 }
 
+.playlist .row {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: var(--white);
+}
+
+.playlist .row .col {
+  flex: 1 1 40rem;
+}
+
