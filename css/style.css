@@ -623,8 +623,8 @@ footer {
 
 .playlist .row {
   display: flex;
-  align-items: flex-end;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem;
   background-color: var(--white);
