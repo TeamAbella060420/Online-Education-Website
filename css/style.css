@@ -649,5 +649,5 @@ footer {
 }
 
 .playlist .row .col .save-list button span {
-  color: var(--light-bg);
+  color: var(--light-color);
 }
