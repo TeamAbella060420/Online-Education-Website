@@ -710,3 +710,15 @@ footer {
   color: var(--light-color);
   font-size: 1.7rem;
 }
+
+.playlist .row .col .details .date {
+  font-size: 1.7rem;
+}
+
+.playlist .row .col .details .date i {
+  color: var(--main-color);
+}
+
+.playlist .row .col .details .date span {
+  color: var(--light-color);
+}
