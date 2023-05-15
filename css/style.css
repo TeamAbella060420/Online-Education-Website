@@ -813,3 +813,16 @@ footer {
   display: flex;
   gap: 2rem;
 }
+
+.watch-video .video-details .info p {
+  font-size: 1.5rem;
+}
+
+.watch-video .video-details .info p i {
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+.watch-video .video-details .info p span {
+  color: var(--light-color);
+}
