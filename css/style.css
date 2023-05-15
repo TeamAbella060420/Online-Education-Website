@@ -923,3 +923,9 @@ footer {
   color: var(--black);
 }
 
+.comments .show-comments {
+  background-color: var(--white);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
