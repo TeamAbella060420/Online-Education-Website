@@ -677,7 +677,8 @@ footer {
   border-radius: 0.5rem;
   font-size: 2rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
 }
 
 .playlist .row .col .thumb img {
