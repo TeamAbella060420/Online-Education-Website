@@ -788,3 +788,7 @@ footer {
   color: var(--black);
   margin-top: 1rem;
 }
+
+.videos-container .box-container .box:hover h3 {
+  color: var(--main-color);
+}
