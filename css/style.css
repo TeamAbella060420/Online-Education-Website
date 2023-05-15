@@ -670,10 +670,11 @@ footer {
 }
 
 .playlist .row .col .thumb span {
+  padding: 0.5rem 1.5rem;
   position: absolute;
   top: 1rem;
   left: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .playlist .row .col .thumb img {
