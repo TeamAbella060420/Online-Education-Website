@@ -905,14 +905,14 @@ footer {
   color: var(--light-color);
 }
 
-.comment .add-comment {
+.comments .add-comment {
   background-color: var(--white);
   border-radius: .5rem;
   margin-bottom: 2rem;
   padding: 2rem;
 }
 
-.comment .add-comment textarea {
+.comments .add-comment textarea {
   border-radius: .5rem;
   padding: 1.4rem;
   width: 100%;
