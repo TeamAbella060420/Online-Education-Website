@@ -65,4 +65,12 @@
     .about .row .image img {
       height: auto;
     }
+
+    .playlist .row .col .thumb img {
+      height: 25rem;
+    }
+
+    .videos-container .box-container .box img {
+      height: 25rem;
+    }
   }
