@@ -847,4 +847,5 @@ footer {
 .watch-video .video-details .tutor h3 {
   font-size: 2rem;
   color: var(--black);
+  margin-bottom: .2rem;
 }
