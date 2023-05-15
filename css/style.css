@@ -760,5 +760,6 @@ footer {
 .videos-container .box-container .box img {
   height: 20rem;
   width: 100%;
-  border-radius: 50%;
+  border-radius: .5rem;
+  object-fit: cover;
 }
