@@ -973,8 +973,11 @@ footer {
   position: absolute;
   top: -1rem;
   left: 1.5rem;
-  height: 1.2rem;
-  width: 2rem;
-  background-color: var(--light-bg);
-  clip-path: polygon(50%, 0%, 0%, 100%, 100%, 100%);
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1.2rem solid var(--light-bg);
+  transform: rotate(360deg);
 }
+
