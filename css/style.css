@@ -875,8 +875,18 @@ footer {
 
 .watch-video .video-details .flex button i {
   color: var(--black);
+  margin-right: 1rem;
+  border-radius: .5rem;
 }
 
 .watch-video .video-details .flex button span {
   color: var(--light-color);
+}
+
+.watch-video .video-details .flex button:hover {
+  background-color: var(--black);
+}
+
+.watch-video .video-details .flex button:hover i {
+  color: var(--black);
 }
