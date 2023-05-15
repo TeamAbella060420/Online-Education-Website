@@ -928,7 +928,7 @@ footer {
   border-radius: 0.5rem;
   padding: 2rem;
   display: grid;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .comments .show-comments .user {
