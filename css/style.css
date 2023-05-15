@@ -904,3 +904,8 @@ footer {
   font-size: 1.6rem;
   color: var(--light-color);
 }
+
+.comment .add-comment {
+  background-color: var(--white);
+}
+
