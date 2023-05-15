@@ -741,3 +741,11 @@ footer {
 .playlist .row .col .details .date span {
   color: var(--light-color);
 }
+
+.videos-container .box-container .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
