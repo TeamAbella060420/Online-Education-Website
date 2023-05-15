@@ -932,7 +932,7 @@ footer {
 .comments .show-comments .user {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .comments .show-comments .user img {
@@ -940,4 +940,23 @@ footer {
   width: 5rem;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.comments .show-comments .user h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: .2rem;
+}
+
+.comments .show-comments .user span {
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+.comments .show-comments .text {
+  border-radius: .5rem;
+  background-color: var(--light-color);
+  padding: 1rem 1.5rem;
+  color: var(--black);
+  margin: .5rem 0;
 }
