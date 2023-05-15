@@ -929,3 +929,9 @@ footer {
   padding: 2rem;
 }
 
+.comments .show-comments .users {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
