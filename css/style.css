@@ -872,3 +872,11 @@ footer {
   padding: 1rem 2.5rem;
   font-size: 2rem;
 }
+
+.watch-video .video-details .flex button i {
+  color: var(--black);
+}
+
+.watch-video .video-details .flex button span {
+  color: var(--light-color);
+}
