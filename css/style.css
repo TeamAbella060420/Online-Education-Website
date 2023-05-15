@@ -763,3 +763,11 @@ footer {
   border-radius: .5rem;
   object-fit: cover;
 }
+
+.videos-container .box-container .box i {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  height: 20rem;
+}
