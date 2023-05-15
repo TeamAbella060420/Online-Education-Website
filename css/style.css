@@ -849,3 +849,15 @@ footer {
   color: var(--black);
   margin-bottom: .2rem;
 }
+
+.watch-video .video-details .tutor span {
+  color: var(--light-bg);
+  font-size: 1.5rem;
+}
+
+.watch-video .video-details .flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
