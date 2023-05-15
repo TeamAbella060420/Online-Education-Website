@@ -851,7 +851,7 @@ footer {
 }
 
 .watch-video .video-details .tutor span {
-  color: var(--light-bg);
+  color: var(--light-color);
   font-size: 1.5rem;
 }
 
@@ -860,4 +860,15 @@ footer {
   align-items: center;
   gap: 1.5rem;
   justify-content: space-between;
+}
+
+.watch-video .video-details .flex a {
+  margin-top: 0;
+}
+
+.watch-video .video-details .flex button {
+  background-color: var(--light-bg);
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
 }
