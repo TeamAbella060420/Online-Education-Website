@@ -933,6 +933,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .comments .show-comments .user img {
@@ -955,7 +956,7 @@ footer {
 
 .comments .show-comments .text {
   border-radius: .5rem;
-  background-color: var(--light-color);
+  background-color: var(--light-bg);
   padding: 1rem 1.5rem;
   color: var(--black);
   margin: .5rem 0;
