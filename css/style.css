@@ -967,3 +967,8 @@ footer {
   white-space: pre-line;
   font-size: 1.8rem;
 }
+
+.comments .show-comments .text:before {
+  content: '';
+  position: absolute;
+}
