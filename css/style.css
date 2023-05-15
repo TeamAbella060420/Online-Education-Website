@@ -894,3 +894,13 @@ footer {
 .watch-video .video-details .flex button:hover span {
   color: var(--white);
 }
+
+.watch-video .video-details .description {
+  padding-top: 2rem;
+}
+
+.watch-video .video-details .description p {
+  line-height: 2;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
