@@ -890,3 +890,7 @@ footer {
 .watch-video .video-details .flex button:hover i {
   color: var(--black);
 }
+
+.watch-video .video-details .flex button:hover span {
+  color: var(--white);
+}
