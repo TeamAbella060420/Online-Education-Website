@@ -968,7 +968,13 @@ footer {
   font-size: 1.8rem;
 }
 
-.comments .show-comments .text:before {
+.comments .show-comments .text::before {
   content: '';
   position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: var(--light-bg);
+  clip-path: polygon(50%, 0%, 0%, 100%, 100%, 100%);
 }
