@@ -927,6 +927,8 @@ footer {
   background-color: var(--white);
   border-radius: 0.5rem;
   padding: 2rem;
+  display: grid;
+  gap: 3rem;
 }
 
 .comments .show-comments .user {
