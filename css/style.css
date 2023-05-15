@@ -669,6 +669,10 @@ footer {
   height: 30rem;
 }
 
+.playlist .row .col .thumb span {
+  position: absolute;
+}
+
 .playlist .row .col .thumb img {
   width: 100%;
   height: 100%;
