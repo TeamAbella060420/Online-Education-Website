@@ -797,3 +797,18 @@ footer {
   background: var(--white);
   padding: 2rem;
 }
+
+.watch-video .video-details .video {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.watch-video .video-details .title {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1.5rem 0;
+}
+
+.watch-video .video-details .info {
+  display: flex;
+}
