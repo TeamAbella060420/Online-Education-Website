@@ -754,4 +754,5 @@ footer {
   position: relative;
   border-radius: .5rem;
   padding: 2rem;
+  background-color: var(--white);
 }
