@@ -792,3 +792,8 @@ footer {
 .videos-container .box-container .box:hover h3 {
   color: var(--main-color);
 }
+
+.watch-video .video-details {
+  background: var(--white);
+  padding: 2rem;
+}
