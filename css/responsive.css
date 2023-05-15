@@ -19,12 +19,14 @@
     .side-bar .close-side-bar {
       display: block;
     }
+
   }
   
   @media (max-width: 991px) {
     html {
       font-size: 55%;
     }
+
   }
   
   @media (max-width: 768px) {
@@ -46,6 +48,7 @@
       transform: scale(0);
       transition: 0.2s linear;
     }
+    
   }
   
   @media (max-width: 450px) {
@@ -64,14 +67,6 @@
   
     .about .row .image img {
       height: auto;
-    }
-
-    .playlist .row .col .thumb img {
-      height: 25rem;
-    }
-
-    .videos-container .box-container .box img {
-      height: 25rem;
     }
 
   }
