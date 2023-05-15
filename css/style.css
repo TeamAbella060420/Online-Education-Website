@@ -666,11 +666,12 @@ footer {
 
 .playlist .row .col .thumb {
   position: relative;
+  height: 30rem;
 }
 
 .playlist .row .col .thumb img {
   width: 100%;
-  height: 30rem;
+  height: 100%;
   border-radius: 0.5rem;
   object-fit: cover;
 }
