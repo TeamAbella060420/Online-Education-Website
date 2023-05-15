@@ -812,6 +812,9 @@ footer {
 .watch-video .video-details .info {
   display: flex;
   gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: var(--border);
 }
 
 .watch-video .video-details .info p {
@@ -832,4 +835,16 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.watch-video .video-details .tutor img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.watch-video .video-details .tutor h3 {
+  font-size: 2rem;
+  color: var(--black);
 }
