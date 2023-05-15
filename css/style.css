@@ -752,7 +752,7 @@ footer {
 
 .videos-container .box-container .box {
   position: relative;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   background-color: var(--white);
 }
@@ -760,7 +760,7 @@ footer {
 .videos-container .box-container .box img {
   height: 20rem;
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -776,7 +776,7 @@ footer {
   justify-content: center;
   font-size: 4rem;
   color: #fff;
-  border-radius: .5re2;
+  border-radius: 0.5re2;
 }
 
 .videos-container .box-container .box:hover i {
@@ -800,7 +800,7 @@ footer {
 
 .watch-video .video-details .video {
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .watch-video .video-details .title {
@@ -847,7 +847,7 @@ footer {
 .watch-video .video-details .tutor h3 {
   font-size: 2rem;
   color: var(--black);
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .watch-video .video-details .tutor span {
@@ -871,12 +871,12 @@ footer {
   cursor: pointer;
   padding: 1rem 2.5rem;
   font-size: 2rem;
+  border-radius: 0.5rem;
 }
 
 .watch-video .video-details .flex button i {
   color: var(--black);
   margin-right: 1rem;
-  border-radius: .5rem;
 }
 
 .watch-video .video-details .flex button span {
@@ -888,7 +888,7 @@ footer {
 }
 
 .watch-video .video-details .flex button:hover i {
-  color: var(--black);
+  color: var(--white);
 }
 
 .watch-video .video-details .flex button:hover span {
