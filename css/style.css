@@ -907,5 +907,6 @@ footer {
 
 .comment .add-comment {
   background-color: var(--white);
+  border-radius: .5rem;
 }
 
