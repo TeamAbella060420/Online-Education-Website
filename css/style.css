@@ -749,3 +749,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.videos-container .box-container .box {
+  position: relative;
+  border-radius: .5rem;
+  padding: 2rem;
+}
