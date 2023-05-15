@@ -826,3 +826,10 @@ footer {
 .watch-video .video-details .info p span {
   color: var(--light-color);
 }
+
+.watch-video .video-details .tutor {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
