@@ -1025,6 +1025,8 @@ footer {
 .teachers .box-container .box .tutor img {
   height: 5rem;
   width: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .teachers .box-container .box .tutor h3 {
