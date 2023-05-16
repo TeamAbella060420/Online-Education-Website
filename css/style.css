@@ -1026,6 +1026,7 @@ footer {
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .teachers .box-container .box .tutor img {
@@ -1037,4 +1038,10 @@ footer {
 
 .teachers .box-container .box .tutor h3 {
   color: var(--black);
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.teachers .box-container .box .tutor span {
+  color: var(--main-color);
 }
