@@ -994,4 +994,5 @@ footer {
   width: 100%;
   font-size: 1.8rem;
   color: var(--black);
+  background: none;
 }
