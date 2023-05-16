@@ -1001,6 +1001,7 @@ footer {
   font-size: 2rem;
   background: none;
   color: var(--black);
+  cursor: pointer;
 }
 
 .teachers .search-tutors button:hover {
