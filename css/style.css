@@ -1047,8 +1047,22 @@ footer {
   font-size: 1.5rem;
 }
 
-.teachers .box-container .box .tutor p {
+.teachers .box-container .box p {
   padding-top: 1rem;
   font-size: 1.7rem;
   color: var(--light-color);
+}
+
+.teachers .box-container .offer {
+  text-align: center;
+}
+
+.teachers .box-container .offer h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.teachers .box-container .offer p {
+  line-height: 2;
+  padding-bottom: 0.5rem;
 }
