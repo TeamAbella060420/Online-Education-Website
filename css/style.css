@@ -1049,4 +1049,6 @@ footer {
 
 .teachers .box-container .box .tutor p {
   padding-top: 1rem;
+  font-size: 1.7rem;
+  color: var(--light-color);
 }
