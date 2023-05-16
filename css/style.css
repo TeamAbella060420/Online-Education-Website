@@ -980,3 +980,9 @@ footer {
   transform: rotate(360deg);
 }
 
+.teachers .search-tutors {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
