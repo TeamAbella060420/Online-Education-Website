@@ -1044,4 +1044,9 @@ footer {
 
 .teachers .box-container .box .tutor span {
   color: var(--main-color);
+  font-size: 1.5rem;
+}
+
+.teachers .box-container .box .tutor p {
+  padding-top: 1rem;
 }
