@@ -1022,6 +1022,11 @@ footer {
   background-color: var(--white);
 }
 
+.teachers .box-container .box .tutor img {
+  height: 5rem;
+  width: 5rem;
+}
+
 .teachers .box-container .box .tutor h3 {
   color: var(--black);
 }
