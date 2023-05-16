@@ -1021,3 +1021,7 @@ footer {
   padding: 2rem;
   background-color: var(--white);
 }
+
+.teachers .box-container .box .tutor h3 {
+  color: var(--black);
+}
