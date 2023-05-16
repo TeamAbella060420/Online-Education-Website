@@ -996,3 +996,13 @@ footer {
   color: var(--black);
   background: none;
 }
+
+.teachers .search-tutors button {
+  font-size: 2rem;
+  background: none;
+  color: var(--black);
+}
+
+.teachers .search-tutors button:hover {
+  color: var(--main-color);
+}
