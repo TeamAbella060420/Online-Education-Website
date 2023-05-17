@@ -1202,3 +1202,26 @@ footer {
   text-decoration: underline;
   color: var(--main-color);
 } 
+
+.profile .details {
+  background-color: var(--white);
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.profile .details .user {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile .details .user img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile .details .user h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
