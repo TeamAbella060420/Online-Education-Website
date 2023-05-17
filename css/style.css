@@ -1166,4 +1166,11 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact .box-container .box {
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  border-color: var(--white);
 }
