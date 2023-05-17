@@ -1082,4 +1082,11 @@ footer {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+  object-fit: cover;
+}
+
+.tutor-profile .details .tutor h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin: .5rem 0;
 }
