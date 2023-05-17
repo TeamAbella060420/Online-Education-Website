@@ -1229,6 +1229,13 @@ footer {
 }
 
 .profile .details .user p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--light-color);
+}
+
+.profile .details .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1.5rem;
 }
