@@ -1194,4 +1194,5 @@ footer {
   font-size: 1.7rem;
   color: var(--light-color);
   line-height: 1.5;
+  margin-top: .5rem;
 }
