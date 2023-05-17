@@ -1116,3 +1116,8 @@ footer {
 .tutor-profile .details .flex p span {
   color: var(--main-color);
 }
+
+.contact .row {
+  display: flex;
+  
+}
