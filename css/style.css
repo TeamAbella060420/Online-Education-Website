@@ -1275,3 +1275,10 @@ footer {
   font-size: 1.5rem;
   color: var(--light-color);
 }
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 1rem);
+}
