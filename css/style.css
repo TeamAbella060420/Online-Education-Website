@@ -1282,3 +1282,10 @@ footer {
   justify-content: center;
   min-height: calc(100vh - 20rem);
 }
+
+.form-container form {
+  background-color: var(--white);
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center;
+}
