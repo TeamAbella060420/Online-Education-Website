@@ -1108,4 +1108,7 @@ footer {
   flex: 1 1 25rem;
   border-radius: .5rem;
   background-color: var(--light-bg);
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  color: var(--light-color);
 }
