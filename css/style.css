@@ -1191,6 +1191,7 @@ footer {
 
 .contact .box-container .box a {
   display: block;
-  margin-top: 1rem;
   font-size: 1.7rem;
+  color: var(--light-color);
+  line-height: 1.5;
 }
