@@ -1294,4 +1294,18 @@ footer {
 .form-container form p {
   padding-top: 1rem;
   font-size: 1.7rem;
+  color: var(--light-color);
+}
+
+.form-container form p span {
+  color: var(--red);
+}
+
+.form-container form .box {
+  width: 100%;
+  background-color: var(--light-bg);
+  padding: 2rem;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  color: var(--black);
 }
