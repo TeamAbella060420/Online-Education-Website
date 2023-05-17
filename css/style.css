@@ -1239,3 +1239,9 @@ footer {
   align-items: flex-end;
   gap: 1.5rem;
 }
+
+.profile .details .box-container .box {
+  flex: 1 1 30rem;
+  background-color: var(--light-bg);
+  border-radius: .5rem;
+}
