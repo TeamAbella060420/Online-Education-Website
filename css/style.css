@@ -1174,4 +1174,17 @@ footer {
   border-radius: .5rem;
   background-color: var(--white);
   padding: 2rem;
+  text-align: center;
+}
+
+.contact .box-container .box i {
+  font-size: 3rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.contact .box-container .box h3 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: var(--black);
 }
