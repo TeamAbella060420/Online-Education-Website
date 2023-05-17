@@ -1069,4 +1069,7 @@ footer {
 
 .tutor-profile .details {
   background-color: var(--white);
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center;
 }
