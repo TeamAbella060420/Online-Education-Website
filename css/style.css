@@ -1119,5 +1119,6 @@ footer {
 
 .contact .row {
   display: flex;
-  
+  align-items: center;
+  gap: 1.5rem;
 }
