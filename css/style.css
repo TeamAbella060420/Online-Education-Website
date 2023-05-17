@@ -1145,3 +1145,9 @@ footer {
   margin-bottom: 1rem;
   color: var(--black);
 }
+
+.contact .row form .box {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: .5rem;
+}
