@@ -93,8 +93,64 @@
 
     <!-- register section starts -->
 
-    <section class="register">
-      
+    <section class="form-container">
+      <form action="" method="post" enctype="multipart/form-data">
+        <h3>Register</h3>
+        <p>Your name <span>*</span></p>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          maxlength="100"
+          name="name"
+          class="box"
+          required
+        />
+        <p>Your email</p>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          maxlength="100"
+          name="email"
+          class="box"
+        />
+        <p>Old password</p>
+        <input
+          type="password"
+          placeholder="Enter your old password"
+          maxlength="50"
+          name="old_password"
+          class="box"
+        />
+        <p>New password</p>
+        <input
+          type="password"
+          placeholder="Enter your new password"
+          maxlength="50"
+          name="new_password"
+          class="box"
+        />
+        <p>Confirm password</p>
+        <input
+          type="password"
+          placeholder="Confirm your new password"
+          maxlength="50"
+          name="confirm_password"
+          class="box"
+        />
+        <p>Update image</p>
+        <input
+          type="file"
+          name="image"
+          accept="image/*"
+          class="box"
+        />
+        <input
+          type="submit"
+          name="submit"
+          value="update profile"
+          class="btn"
+        />
+      </form>
     </section>
 
     <!-- register section end -->
