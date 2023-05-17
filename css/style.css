@@ -1308,4 +1308,5 @@ footer {
   border-radius: .5rem;
   font-size: 1.8rem;
   color: var(--black);
+  margin: 1rem 0;
 }
