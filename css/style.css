@@ -1073,3 +1073,13 @@ footer {
   padding: 2rem;
   text-align: center;
 }
+
+.tutor-profile .details .tutor {
+  margin-bottom: 2rem;
+}
+
+.tutor-profile .details .tutor img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
