@@ -1249,5 +1249,6 @@ footer {
 
 .profile .details .box-container .box .flex {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
