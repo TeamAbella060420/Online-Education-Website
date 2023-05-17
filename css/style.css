@@ -1225,4 +1225,5 @@ footer {
 .profile .details .user h3 {
   font-size: 2rem;
   color: var(--black);
+  margin: .5rem 0;
 }
