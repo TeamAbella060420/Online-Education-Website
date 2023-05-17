@@ -1188,3 +1188,8 @@ footer {
   font-size: 2rem;
   color: var(--black);
 }
+
+.contact .box-container .box a {
+  display: block;
+  margin-top: 1rem;
+}
