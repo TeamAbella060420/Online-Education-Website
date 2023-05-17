@@ -1112,3 +1112,7 @@ footer {
   font-size: 2rem;
   color: var(--light-color);
 }
+
+.tutor-profile .details .flex p span {
+  color: var(--main-color);
+}
