@@ -1150,4 +1150,8 @@ footer {
   width: 100%;
   margin: 1rem 0;
   border-radius: .5rem;
+  background-color: var(--light-bg);
+  padding: 1.4rem;
+  color: var(--black);
+  font-size: 1.8rem;
 }
