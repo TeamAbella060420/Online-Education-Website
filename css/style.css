@@ -1251,4 +1251,22 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile .details .box-container .box .flex i {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: .5rem;
+  background-color: var(--black);
+  line-height: 4.4rem;
+  font-size: 2rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.profile .details .box-container .box .flex h3{
+  font-size: 2rem;
+  color: var(--main-color);
+  margin-bottom: .2rem;
 }
