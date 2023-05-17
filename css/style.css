@@ -1287,7 +1287,6 @@ footer {
   background-color: var(--white);
   border-radius: .5rem;
   padding: 2rem;
-  text-align: center;
   padding-top: 1rem;
 }
 
@@ -1309,4 +1308,9 @@ footer {
   font-size: 1.8rem;
   color: var(--black);
   margin: 1rem 0;
+}
+
+.form-container form h3 {
+  text-align: center;
+  font-size: 1rem;
 }
