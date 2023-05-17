@@ -1244,4 +1244,10 @@ footer {
   flex: 1 1 30rem;
   background-color: var(--light-bg);
   border-radius: .5rem;
+  padding: 2rem;
+}
+
+.profile .details .box-container .box .flex {
+  display: flex;
+  align-items: center;
 }
