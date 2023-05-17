@@ -1122,3 +1122,12 @@ footer {
   align-items: center;
   gap: 1.5rem;
 }
+
+.contact .row .image {
+  flex: 1 1 50rem;
+}
+
+.contact .row .image img {
+  height: 40rem;
+  width: 500;
+}
