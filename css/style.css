@@ -1103,3 +1103,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.tutor-profile .details .flex p {
+  flex: 1 1 25rem;
+}
