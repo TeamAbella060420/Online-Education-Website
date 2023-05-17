@@ -69,4 +69,9 @@
       height: auto;
     }
 
+    .contact .row .image img {
+      height: auto;
+      
+    }
+
   }
