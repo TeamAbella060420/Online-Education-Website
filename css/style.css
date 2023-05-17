@@ -1131,3 +1131,9 @@ footer {
   height: 50rem;
   width: 100%;
 }
+
+.contact .row form {
+  flex: 1 1 30rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+}
