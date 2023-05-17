@@ -1155,3 +1155,7 @@ footer {
   color: var(--black);
   font-size: 1.8rem;
 }
+
+.contact .row form textarea {
+  height: 20rem;
+}
