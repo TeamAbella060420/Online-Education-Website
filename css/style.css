@@ -1290,3 +1290,8 @@ footer {
   text-align: center;
   padding-top: 1rem;
 }
+
+.form-container form p {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+}
