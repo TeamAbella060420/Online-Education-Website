@@ -1172,5 +1172,6 @@ footer {
 .contact .box-container .box {
   flex: 1 1 30rem;
   border-radius: .5rem;
-  border-color: var(--white);
+  background-color: var(--white);
+  padding: 2rem;
 }
