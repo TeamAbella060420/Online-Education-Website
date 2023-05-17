@@ -1287,7 +1287,7 @@ footer {
   background-color: var(--white);
   border-radius: .5rem;
   padding: 2rem;
-  padding-top: 1rem;
+  width: 50rem;
 }
 
 .form-container form p {
