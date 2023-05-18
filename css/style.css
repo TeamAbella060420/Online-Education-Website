@@ -947,7 +947,7 @@ footer {
 .comments .show-comments .user h3 {
   font-size: 2rem;
   color: var(--black);
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .comments .show-comments .user span {
@@ -956,11 +956,11 @@ footer {
 }
 
 .comments .show-comments .text {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   padding: 1rem 1.5rem;
   color: var(--black);
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   position: relative;
   z-index: 0;
   white-space: pre-line;
@@ -968,7 +968,7 @@ footer {
 }
 
 .comments .show-comments .text::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1rem;
   left: 1.5rem;
@@ -987,7 +987,7 @@ footer {
   gap: 1.5rem;
   padding: 1.5rem 2rem;
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .teachers .search-tutors input {
@@ -1017,7 +1017,7 @@ footer {
 }
 
 .teachers .box-container .box {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   background-color: var(--white);
 }
@@ -1069,7 +1069,7 @@ footer {
 
 .tutor-profile .details {
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   text-align: center;
 }
@@ -1083,13 +1083,13 @@ footer {
   width: 10rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .tutor-profile .details .tutor h3 {
   font-size: 2rem;
   color: var(--black);
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .tutor-profile .details .tutor span {
@@ -1106,7 +1106,7 @@ footer {
 
 .tutor-profile .details .flex p {
   flex: 1 1 25rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   padding: 1rem 3rem;
   font-size: 2rem;
@@ -1136,7 +1136,7 @@ footer {
 .contact .row form {
   flex: 1 1 30rem;
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   text-align: center;
 }
@@ -1150,7 +1150,7 @@ footer {
 .contact .row form .box {
   width: 100%;
   margin: 1rem 0;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   padding: 1.4rem;
   color: var(--black);
@@ -1172,7 +1172,7 @@ footer {
 
 .contact .box-container .box {
   flex: 1 1 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--white);
   padding: 2rem;
   text-align: center;
@@ -1195,17 +1195,17 @@ footer {
   font-size: 1.7rem;
   color: var(--light-color);
   line-height: 1.5;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .contact .box-container .box a:hover {
   text-decoration: underline;
   color: var(--main-color);
-} 
+}
 
 .profile .details {
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 
@@ -1225,7 +1225,7 @@ footer {
 .profile .details .user h3 {
   font-size: 2rem;
   color: var(--black);
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .profile .details .user p {
@@ -1243,7 +1243,7 @@ footer {
 .profile .details .box-container .box {
   flex: 1 1 30rem;
   background-color: var(--light-bg);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 
@@ -1257,7 +1257,7 @@ footer {
 .profile .details .box-container .box .flex i {
   height: 4.5rem;
   width: 4.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--black);
   line-height: 4.4rem;
   font-size: 2rem;
@@ -1265,10 +1265,10 @@ footer {
   text-align: center;
 }
 
-.profile .details .box-container .box .flex h3{
+.profile .details .box-container .box .flex h3 {
   font-size: 2rem;
   color: var(--main-color);
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .profile .details .box-container .box .flex span {
@@ -1285,7 +1285,7 @@ footer {
 
 .form-container form {
   background-color: var(--white);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 2rem;
   width: 50rem;
 }
@@ -1304,7 +1304,7 @@ footer {
   width: 100%;
   background-color: var(--light-bg);
   padding: 1.4rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 1.8rem;
   color: var(--black);
   margin: 1rem 0;
