@@ -20,7 +20,7 @@
     <!-- header section starts -->
     <header class="header">
       <section class="flex">
-        <a href="home.html" class="logo">Educate</a>
+        <a href="home.php" class="logo">Educate</a>
         <form action="" method="post" class="search-form">
           <input
             type="text"
@@ -48,10 +48,10 @@
           <img src="images/pic-1.jpg" alt="" />
           <h3>Abraham Abella</h3>
           <span>Student</span>
-          <a href="profile.html" class="btn">View profile</a>
+          <a href="profile.php" class="btn">View profile</a>
           <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+            <a href="login.php" class="option-btn">login</a>
+            <a href="register.php" class="option-btn">register</a>
           </div>
         </div>
       </section>
@@ -69,21 +69,21 @@
         <img src="images/pic-1.jpg" alt="" />
         <h3>Abraham Abella</h3>
         <span>Student</span>
-        <a href="profile.html" class="btn">View profile</a>
+        <a href="profile.php" class="btn">View profile</a>
       </div>
 
       <nav class="navbar">
-        <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
-        <a href="about.html"
+        <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.php"
           ><i class="fas fa-question"></i><span>About us</span></a
         >
-        <a href="courses.html"
+        <a href="courses.php"
           ><i class="fas fa-graduation-cap"></i><span>Our Courses</span></a
         >
-        <a href="teachers.html"
+        <a href="teachers.php"
           ><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a
         >
-        <a href="contact.html"
+        <a href="contact.php"
           ><i class="fas fa-headset"></i><span>Contact US</span></a
         >
       </nav>
@@ -123,7 +123,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum
               minima veritatis, quis provident ducimus.
             </p>
-            <h3>Complete HTML tutorial</h3>
+            <h3>Complete php tutorial</h3>
             <div class="date">
               <i class="fas fa-calendar"></i><span>15-04-2023</span>
             </div>
@@ -139,35 +139,35 @@
     <section class="videos-container">
       <h1 class="heading">Playlist Videos</h1>
       <div class="box-container">
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-1.png" alt="" />
-          <h3>Complete HTML tutor (part 01)</h3>
+          <h3>Complete PHP tutor (part 01)</h3>
         </a>
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-2.png" alt="" />
-          <h3>Complete HTML tutor (part 02)</h3>
+          <h3>Complete PHP tutor (part 02)</h3>
         </a>
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-3.png" alt="" />
-          <h3>Complete HTML tutor (part 03)</h3>
+          <h3>Complete PHP tutor (part 03)</h3>
         </a>
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-4.png" alt="" />
-          <h3>Complete HTML tutor (part 04)</h3>
+          <h3>Complete PHP tutor (part 04)</h3>
         </a>
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-5.png" alt="" />
-          <h3>Complete HTML tutor (part 05)</h3>
+          <h3>Complete PHP tutor (part 05)</h3>
         </a>
-        <a href="watch-video.html" class="box">
+        <a href="watch-video.php" class="box">
           <i class="fas fa-play"></i>
           <img src="images/post-1-6.png" alt="" />
-          <h3>Complete HTML tutor (part 06)</h3>
+          <h3>Complete PHP tutor (part 06)</h3>
         </a>
       </div>
     </section>
