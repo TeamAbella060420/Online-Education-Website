@@ -19,7 +19,7 @@
     <!-- header section starts -->
     <header class="header">
       <section class="flex">
-        <a href="home.html" class="logo">Educate</a>
+        <a href="home.php" class="logo">Educate</a>
         <form action="" method="post" class="search-form">
           <input
             type="text"
@@ -47,10 +47,10 @@
           <img src="images/pic-1.jpg" alt="" />
           <h3>Abraham Abella</h3>
           <span>Student</span>
-          <a href="profile.html" class="btn">View profile</a>
+          <a href="profile.php" class="btn">View profile</a>
           <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+            <a href="login.php" class="option-btn">login</a>
+            <a href="register.php" class="option-btn">register</a>
           </div>
         </div>
       </section>
@@ -68,21 +68,21 @@
         <img src="images/pic-1.jpg" alt="" />
         <h3>Abraham Abella</h3>
         <span>Student</span>
-        <a href="profile.html" class="btn">View profile</a>
+        <a href="profile.php" class="btn">View profile</a>
       </div>
 
       <nav class="navbar">
-        <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
-        <a href="about.html"
+        <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.php"
           ><i class="fas fa-question"></i><span>About us</span></a
         >
-        <a href="courses.html"
+        <a href="courses.php"
           ><i class="fas fa-graduation-cap"></i><span>Our Courses</span></a
         >
-        <a href="teachers.html"
+        <a href="teachers.php"
           ><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a
         >
-        <a href="contact.html"
+        <a href="contact.php"
           ><i class="fas fa-headset"></i><span>Contact US</span></a
         >
       </nav>
@@ -106,7 +106,7 @@
           </div>
           <img src="images/thumb-1.png" class="thumb" alt="" />
           <h3 class="title">Complete HTML Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -119,7 +119,7 @@
           </div>
           <img src="images/thumb-2.png" class="thumb" alt="" />
           <h3 class="title">Complete CSS Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -132,7 +132,7 @@
           </div>
           <img src="images/thumb-3.png" class="thumb" alt="" />
           <h3 class="title">Complete JS Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -145,7 +145,7 @@
           </div>
           <img src="images/thumb-4.png" class="thumb" alt="" />
           <h3 class="title">Complete JS Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -158,7 +158,7 @@
           </div>
           <img src="images/thumb-5.png" class="thumb" alt="" />
           <h3 class="title">Complete JQuery Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -171,7 +171,7 @@
           </div>
           <img src="images/thumb-6.png" class="thumb" alt="" />
           <h3 class="title">Complete SASS Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -184,7 +184,7 @@
           </div>
           <img src="images/thumb-7.png" class="thumb" alt="" />
           <h3 class="title">Complete PHP Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -197,7 +197,7 @@
           </div>
           <img src="images/thumb-8.png" class="thumb" alt="" />
           <h3 class="title">Complete MySQL Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
 
         <div class="box">
@@ -210,7 +210,7 @@
           </div>
           <img src="images/thumb-9.png" class="thumb" alt="" />
           <h3 class="title">Complete React Tutorial</h3>
-          <a href="playlist.html" class="inline-btn">View Playlist</a>
+          <a href="playlist.php" class="inline-btn">View Playlist</a>
         </div>
       </div>
     </section>
